@@ -2,10 +2,11 @@
 layout: post
 title: "Matrix Operations in Linear Regression"
 date: 2024-11-29
-categories: [Linear Regression, Machine Learning, Gradient Descent]
-tags: [Machine Learning,Linear Regression, Linear Algebra, Matrix Operations, Gradient Descent]
+categories: [Machine Learning]
+tags: [Linear Regression, Linear Algebra, Matrix Operations, Gradient Descent]
 ---
 
+# Matrix Operations in Linear Regression
 
 # 01 Overview
 ### Introduction
