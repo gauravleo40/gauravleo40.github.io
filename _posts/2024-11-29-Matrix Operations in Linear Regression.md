@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Matrix Operations in Linear Regression"
+date: 2024-11-29
+categories: [category1, category2]
+tags: [tag1, tag2]
+---
+
+
 # 01 Overview
 ### Introduction
 
