@@ -121,7 +121,7 @@ The output of this dot product is a 1x1 Matrix. To this we add the intercept, a 
 The above shown Matrix computations make sense for a single data point. Next, we’ll look at how predictions are made for Multiple data points. First let’s observe how the Feature and Weight matrices look for multiple data points (let’s say n data points):
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b0f14ff2-aad9-4bba-9f39-3ba2bf40a870" 
+  <img src="https://github.com/user-attachments/assets/78c0ea2a-25fb-4bfe-9c6b-946bf434f7bb" 
        alt="Vector representation of the components required to make a Prediction on multiple data points" 
        title="Vector representation of the components required to make a Prediction on multiple data points" 
        width="600">
@@ -131,7 +131,7 @@ The above shown Matrix computations make sense for a single data point. Next, we
 The notation used in the above shown Feature Matrix is explained using this below visual :
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b5c006c3-60fb-4241-98ed-7895450c622c" 
+  <img src="https://github.com/user-attachments/assets/816f7510-6c12-4c26-8a4e-2b07e81d457a" 
        alt="Explanation of Notation used in Feature Matrix" 
        title="Explanation of Notation used in Feature Matrix" 
        width="600">
@@ -147,7 +147,7 @@ It’s evident that the representation of Feature Matrix has changed significant
 The predicted output for these multiple data points will be a nx1 Vector (one prediction for each of the n data points). Below are the Matrix operations to compute this prediction vector:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c5e256c9-d0da-4bc8-bd2c-bba8d57845a1" 
+  <img src="https://github.com/user-attachments/assets/1ace62fd-824a-4adf-afa6-6a3aa9becef5" 
        alt="Matrix Operations to make a Prediction on multiple data points in Linear Regression" 
        title="Matrix Operations to make a Prediction on multiple data points in Linear Regression" 
        width="700">
@@ -161,7 +161,7 @@ Did you notice that regardless of the number of data points (single or multiple)
 Let’s formalize this general expression so it captures these Matrix operations to get the Model predictions
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f108d4c9-517a-44b9-a20f-7852f9287686" 
+  <img src="https://github.com/user-attachments/assets/72a0635a-2caa-472d-857e-4bfa3d52ce18" 
        alt="Linear Regression Model Equation represented as an Algebraic Expression" 
        title="Linear Regression Model Equation represented as an Algebraic Expression" 
        width="600">
