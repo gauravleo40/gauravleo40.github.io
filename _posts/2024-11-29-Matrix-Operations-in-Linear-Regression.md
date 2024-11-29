@@ -193,7 +193,7 @@ In summary the Model Training exercise is an activity of finding the model weigh
 The most common loss function used in Linear Regression is the Mean Squared Error (MSE), calculated as:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/26ce0185-13b7-4b2b-a2ad-491ebc6fe252" 
+  <img src="https://github.com/user-attachments/assets/431ee97d-a2b0-43c3-abc2-2ff81d478616" 
        alt="MSE (Mean Squared Error) Loss expression in Linear Regression" 
        title="MSE (Mean Squared Error) Loss expression in Linear Regression" 
        width="400">
@@ -210,7 +210,7 @@ This expression can be broken down into graduals steps for the purpose of unders
 Now that we understand the computations under the Loss Function, let’s explore the corresponding Matrix operations:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/dca4a36b-a705-4b14-912a-26850f03d150" 
+  <img src="https://github.com/user-attachments/assets/67a64145-7c23-4ff0-8c61-939aef9f1cbd" 
        alt="Matrix Operations to compute the Loss Value" 
        title="Matrix Operations to compute the Loss Value" 
        width="1000">
@@ -236,7 +236,7 @@ We know from Calculus that the derivative of a function w.r.t a variable, gives 
 The next set of Model weights values are computed from the previous set by adding to them a small number, which is computed using the Loss Derivative and a term called as ‘learning rate’. The expression for this update looks as follows:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a795a270-3753-4e68-b820-de6e30523737" 
+  <img src="https://github.com/user-attachments/assets/cdf87212-810f-4556-9a43-198f54c46565" 
        alt="Expressions to update Model Weights" 
        title="Expressions to update Model Weights" 
        width="600">
@@ -257,7 +257,7 @@ Next, we will aim to get to the final expressions of these weight updates by com
  Since we need to compute the derivative of the Loss function, let’s take a second look at its expression by plugging in the Model Weights
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a7da2020-80f6-4521-95ae-3a9cd6ff30dc" 
+  <img src="https://github.com/user-attachments/assets/d39f4204-b61d-408a-a4d8-8faaf545f712" 
        alt="Loss Function expression with Model Weights" 
        title="Loss Function expression with Model Weights" 
        width="600">
@@ -268,7 +268,7 @@ Next, let’s compute the derivative of the Loss function with the Weight Vector
 **Derivative of the Loss function w.r.t the Weight vector**
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/811d07f1-67bb-4314-8a07-7c0118a11324" 
+  <img src="https://github.com/user-attachments/assets/f969868e-ad35-471f-9877-7b470641b9eb" 
        alt="Derivative of Loss function with the Weight vector" 
        title="Derivative of Loss function with the Weight vector" 
        width="600">
@@ -277,7 +277,7 @@ Next, let’s compute the derivative of the Loss function with the Weight Vector
 The matrix operations for the last shown expression will be performed as follows.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7ebe007d-bbbc-448e-89d9-46f26d1b9b16" 
+  <img src="https://github.com/user-attachments/assets/be2c0f93-f444-4622-a6f1-ebb8abf5f7ba" 
        alt="Matrix Operations to compute the derivative of Loss function with the Weight vector" 
        title="Matrix Operations to compute the derivative of Loss function with the Weight vector" 
        width="800">
@@ -294,7 +294,7 @@ Below is a breakdown of what’s happening here:
 **Derivative of the Loss function w.r.t the Intercept**
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0eaed6d9-d137-46ba-bb0b-e46ce535b948" 
+  <img src="https://github.com/user-attachments/assets/5cf74184-0d56-4b64-a015-837c619bb842" 
        alt="Derivative of Loss function with the Intercept" 
        title="Derivative of Loss function with the Intercept" 
        width="600">
@@ -304,7 +304,7 @@ Below is a breakdown of what’s happening here:
 The matrix operations required for computing the derivative w.r.t the Intercept are relatively simpler and requires just the computation of the Error vector. This is followed by taking the average of all Error values in the Vector to get a scalar number (or a matrix with dimension 1x1) – why average? since we need to apply the Summation from the expression and then divide by the number of observations.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b4852fc6-f502-4125-8929-02fc14805786" 
+  <img src="https://github.com/user-attachments/assets/dbe63381-924f-4eb2-bd5a-91d4ed16a613" 
        alt="Matrix Operations to compute the derivative of Loss function with the Intercept" 
        title="Matrix Operations to compute the derivative of Loss function with the Intercept" 
        width="400">
@@ -313,7 +313,7 @@ The matrix operations required for computing the derivative w.r.t the Intercept 
 Since both the derivatives have been computed, we can write the final weight update expressions:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/92a6aa11-ad1c-4124-8d23-f49685c4556e" 
+  <img src="https://github.com/user-attachments/assets/2f1ded18-3593-4d44-9dc5-bab4e0a5a53a" 
        alt="Weight update expressions for Weight vector and Intercept" 
        title="Weight update expressions for Weight vector and Intercept" 
        width="800">
@@ -327,7 +327,7 @@ The above expressions may seem intimidating at first and may not fully explain t
 **Weight vector**
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/af0eb4a4-460b-49d7-82a1-f137365ffc12" 
+  <img src="https://github.com/user-attachments/assets/555a43c0-09b5-4bb7-b2e6-9c225e366fba" 
        alt="Matrix operation to update the Weight vector" 
        title="Matrix operation to update the Weight vector" 
        width="700">
@@ -337,7 +337,7 @@ The above expressions may seem intimidating at first and may not fully explain t
 **Intercept**
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e49e99a5-ef42-4aed-8315-438997cfce65" 
+  <img src="https://github.com/user-attachments/assets/a992cd7f-13d9-42d5-b2c8-f15cf94ce424" 
        alt="Matrix operation to update the Intercept" 
        title="Matrix operation to update the Intercept" 
        width="500">
