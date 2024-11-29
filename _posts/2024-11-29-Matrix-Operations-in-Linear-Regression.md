@@ -32,7 +32,7 @@ This article is structured in two main parts: First we will assume that we have 
 To get a clear picture of how a Linear Regression model works behind the scenes, let’s begin by looking at how its underlying input data is organized. In Linear Regression, the input data is arranged into features (the variables used for predictions) and observations (individual data points). The target values, which the model tries to predict, are also included in the dataset. The table below gives a simple reference of how the input data is typically organized
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/af209621-851e-4f6b-9bf1-3dcd670cb39e" 
+  <img src="https://github.com/user-attachments/assets/e37742ec-8d57-4da5-b170-09e3d452e3ed" 
        alt="Input Data Representation in Linear Regression" 
        title="Input Data Representation in Linear Regression" 
        width="800">
@@ -47,7 +47,7 @@ Here:
 **Example :** A dataset with two features and three observations will look like this:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ff02f060-f45e-4726-ab57-0ddf101b8fb9" 
+  <img src="https://github.com/user-attachments/assets/5ec55572-2810-48b8-9585-63f1f2c2c9de" 
        alt="Example of a very simple Input Dataset for Linear Regression" 
        title="Example of a very simple Input Dataset for Linear Regression" 
        width="300">
@@ -58,7 +58,7 @@ Here:
 Now, let’s look at the Linear Regression model equation for predicting the target (𝑌)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4acce624-be0a-4ba7-9b1e-3ba5592a1e82" 
+  <img src="https://github.com/user-attachments/assets/1e51b8e1-1dc9-4d67-bb89-bf5afde9ef6b" 
        alt="Linear Regression model equation" 
        title="Linear Regression model equation" 
        width="600">
@@ -84,7 +84,7 @@ The previously shown model equation can be written as an Algebraic expression th
 This is how these entities look.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/455d94c7-9821-4f66-a97d-194a4dcc94a1" 
+  <img src="https://github.com/user-attachments/assets/1682cb8c-fcb5-4797-8296-7e0fdf20b4c3" 
        alt="Vector representation of the components required to make a Prediction on a single data point" 
        title="Vector representation of the components required to make a Prediction on a single data point" 
        width="600">
@@ -96,7 +96,7 @@ Here the Feature and Weight Vectors are Two-Dimensional vectors or Matrices, whe
 To get this 1x1output, we’ll perform the below Matrix operations.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c30d1112-900c-4fa3-a329-f19d9164998b" 
+  <img src="https://github.com/user-attachments/assets/255482be-c1d9-4a48-9a15-1b36fbd72c48" 
        alt="Matrix Operations to make a Prediction on a single data point in Linear Regression" 
        title="Matrix Operations to make a Prediction on a single data point in Linear Regression" 
        width="600">
@@ -111,7 +111,7 @@ The output of this dot product is a 1x1 Matrix. To this we add the intercept, a 
  For the Two vectors shown, if we simply take the product of the corresponding elements, add all of them along with the intercept, we get the RHS of the Linear Regression equation:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/51c5c4e1-a219-462a-a0fd-4e63d31f6b63" 
+  <img src="https://github.com/user-attachments/assets/7224237a-fc40-47b9-890b-baaae4e8ef8a" 
        alt="Linear Regression model equation" 
        title="Linear Regression model equation" 
        width="600">
